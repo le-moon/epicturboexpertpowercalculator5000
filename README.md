@@ -81,3 +81,39 @@ tlačítko je widget, displej je widget...
 každý widget má své signály a sloty
 
 signál je to, co widget vysílá... třeba klikneš na tlačítko a tlačítko pošle signál... ten musí být napojen na nějaký slot, který spustí funkci, která ho zpracuje 
+
+
+
+Zdířky (SLOTY) 
+-> Objekty, které posílají tento signál 
+
+num_hit() 
+-> Button_[0-9], Button_DPoint
+
+operator2_hit() 
+-> Button_plus, Button_minus, Button_div, Button_mul 
+
+operator1_hit()
+-> Button_ln, Button_fact 
+
+neg_hit()
+-> Button_plusminus 
+
+clear_hit()
+-> Button_C 
+
+power_hit()
+-> Button_power
+
+result_hit()
+-> Button_result 
+
+ans_hit()
+-> Button_Ans
+
+action_about()
+-> action_About 
+
+action_help()
+-> action_Help
+
