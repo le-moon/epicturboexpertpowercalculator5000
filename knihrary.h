@@ -1,6 +1,14 @@
 #include <math.h>
 
-//scitani
+/**
+ * 
+ * @brief      { scitani }
+ * 
+ * @param      i1     { prvni scitane cislo }
+ * @param      i2     { druhe scitane cislo }
+ *
+ * @return     { navraci vysledek scitani }
+ */
 double add(double i1, double i2)
 {
     if (i1 == NAN || i2 == NAN)
@@ -15,7 +23,15 @@ double add(double i1, double i2)
     return vys;
 }
 
-//odcitani
+/**
+ * 
+ * @brief      { odcitani }
+ * 
+ * @param      i1     { cislo od ktereho se odcita }
+ * @param      i2     { odcitane cislo }
+ *
+ * @return     { navraci vysledek odcitani }
+ */
 double sub(double i1, double i2)
 {
     if (i1 == NAN || i2 == NAN)
@@ -30,7 +46,15 @@ double sub(double i1, double i2)
     return vys;
 }
 
-//nasobeni
+/**
+ * 
+ * @brief      { nasobeni }
+ * 
+ * @param      i1     { prvni cislo nasobeni }
+ * @param      i2     { druhe cislo nasobeni }
+ *
+ * @return     { navraci vysledek nasobeni }
+ */
 double mul(double i1, double i2)
 {
     if ((i1 == NAN) || (i2 == NAN))
@@ -51,7 +75,15 @@ double mul(double i1, double i2)
     return i1*i2;
 }
 
-//deleni
+/**
+ * 
+ * @brief      { deleni }
+ * 
+ * @param      i1     { delene cislo }
+ * @param      i2     { delitel }
+ *
+ * @return     { navraci vysledek deleni }
+ */
 double division(double i1, double i2)
 {
     if ((i1 == NAN) || (i2 == NAN))
@@ -72,7 +104,14 @@ double division(double i1, double i2)
     return i1/i2;
 }
 
-//faktorial
+/**
+ * 
+ * @brief      { faktorial }
+ * 
+ * @param      i1     { cislo z ktereho se pocita faktorial }
+ *
+ * @return     { navraci faktorial }
+ */
 double fact(double i1)
 {
   double c, fact = 1;
@@ -108,7 +147,15 @@ double fact(double i1)
   return fact;
 }
 
-//mocnina s prirozenym exponentem
+/**
+ * 
+ * @brief      { mocnina z cisla s prirozenym exponentem }
+ * 
+ * @param      i1     { umocnovane cislo }
+ * @param      i2     { exponent }
+ *
+ * @return     { navraci umocnene cislo }
+ */
 double power (double i1, double i2)
 {
 
@@ -156,7 +203,14 @@ double power (double i1, double i2)
     return temp;
 }
 
-//logaritmus
+/**
+ * 
+ * @brief      { prirozeny logaritmus }
+ * 
+ * @param      x     { logaritmovane cislo }
+ *
+ * @return     { navraci prirozeny logaritmus z cisla x }
+ */
 double ln (double x)  //funkce pro vypocet prirozeneho logaritmu pomoci zretezeneho zlomku
 {
     double cf = 1.0;
