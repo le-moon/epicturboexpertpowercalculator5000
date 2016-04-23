@@ -1,1 +1,4 @@
-
+xbucha02 5 (implementace; testy k mat. knihovně; mockup(y) další verze kalkulačky; volitelné informace o provedeném profilingu; soubor skutecnost.txt; soubor body.txt)
+xbucht25 5 (implementace; grafické rozhraní + propojení; Makefile; instalátor (+odinstalátor); snímek obrazovky programu; mockup(y) další verze kalkulačky; soubor body.txt)
+xcerny66 5 (implementace; grafické rozhraní + propojení; Makefile; snímek obrazovky debuggeru / popis postupu debugování; mockup(y) další verze kalkulačky; soubor body.txt)
+xcervi21 5 (implementace; Doxyfile; uživatelská příručka; testy k mat. knihovně; mockup(y) další verze kalkulačky; soubor body.txt; programová dokumentace)
